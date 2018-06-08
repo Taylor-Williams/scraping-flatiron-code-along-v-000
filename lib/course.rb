@@ -11,6 +11,6 @@ class Course
   end
 
   def self.reset_all
-    self.all = []
+    self.class.all = []
   end
 end
